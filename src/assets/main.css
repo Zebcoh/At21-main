@@ -1,0 +1,28 @@
+@import './base.css';
+
+body {
+  background-color: #e4dece;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+}
+
+.footer {
+  display: block !important;
+  text-align: center !important;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 800px) {
+  .footer {
+  }
+}
+@media (min-width: 801px) and (max-width: 1024px) {
+  html {
+    height: 10200px;
+  }
+}
+@media (width: 1024px) {
+  html {
+    height: 5100px;
+  }
+}

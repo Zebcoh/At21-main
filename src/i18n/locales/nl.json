@@ -1,0 +1,39 @@
+{
+  "header": {
+    "title": "at21hairstudioツ",
+    "intro": "Bij {0} draait alles om jou en de {1} van jou {2}. In onze salon krijg je de volle aandacht die je verdient, zodat je je helemaal op je gemak voelt. Jong of oud, man of vrouw wij geloven dat je jezelf moet kunnen zijn en daarom nemen we de tijd om jou unieke stijl naar voren te kunnen brengen. Of je nu komt voor een complete make over of een frisse touch up, wij zorgen ervoor dat je als de {3} weer de deur uit gaat! Kom bij ons langs en ervaar wat het betekent om ècht gezien te worden!",
+    "bookButton": "Maak een afspraak"
+  },
+  "services": {
+    "title": "Our services",
+    "washingCutting": "Wassen/Knippen Dame/Heer",
+    "blowDry": "Fohnen/Styling",
+    "colorations": "Kleuren",
+    "highlightsBalayage": "Highlights/Balayage",
+    "curlyHair": "Krullen knippen"
+  },
+  "aboutUs": {
+    "title": "Over ons",
+    "greeting": "Hi !",
+    "description": "Ik ben Julia, 21 jaar oud en ben de eigenaresse van {0}! Mijn passie is mensen weer lekker laten voelen in hun haar en dat zo {1}! Knippen en kleuren & highlighten vind ik {2} om te doen; mijn kunst is dan ook om zo {3} haar te creeëren! Ook ben ik gek op de {4} (en guys)! {5} is ook absoluut {6}! Maar zo'n leuke salon run ik zeker niet alleen! Mijn zusje Nina is bij At 21 schoonheidsspecialiste en is geskilled in wenkbrauwen en wimpers kleuren en harsen/epileren! Ze is ook onze gastvrouw en zal jullie met een vriendelijk gezicht verwelkomen! Leuk jullie te leren kennen & hopelijk tot snel in de salon!",
+    "bookButton": "Maak een afspraak"
+  },
+  "visitUs": {
+    "title": "Visit us",
+    "address": "Haverstraatpassage 18, Enschede",
+    "hours": {
+      "title": "Openingstijden",
+      "monday": "mandaag : 13:00 – 18:30 uur",
+      "tuesday": "dinsdag : 09:30 – 18:30 uur",
+      "wednesday": "woensdag : 09:30 – 18:30 uur",
+      "thursday": "donderdag : 13:00 – 20:00 uur",
+      "friday": "vrijdag : 09:30 – 18:30 uur",
+      "saturday": "zaterdag : 09:30 – 15:00 uur",
+      "sunday": "zondag : gesloten"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "053 303 45 05"
+    }
+  }
+} 
