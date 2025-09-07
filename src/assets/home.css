@@ -267,3 +267,14 @@ p  { font-size: clamp(1rem, 0.35vw + 0.95rem, 1.125rem); opacity: 0.95; }
   .visit-us-header { text-align: center; }
   .body-container-visit-us { grid-template-columns: 1fr; }
 }
+
+/* centreren van grid-secties */
+.body-container-1,
+.body-container-our-services,
+.body-container-about-us,
+.body-container-visit-us,
+.gallery-container {
+  justify-items: center;   /* inhoud horizontaal centreren */
+  text-align: center;      /* tekst ook centreren */
+}
+
