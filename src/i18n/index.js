@@ -1,13 +1,13 @@
 import { createI18n } from 'vue-i18n'
-import en from './locales/en.json'
 import nl from './locales/nl.json'
+import en from './locales/en.json'
 
 export default createI18n({
   legacy: false,
-  locale: 'en',
-  fallbackLocale: 'en',
+  locale: 'nl',
+  fallbackLocale: 'nl',
   messages: {
-    en,
-    nl
+    nl,
+    en
   }
 }) 
