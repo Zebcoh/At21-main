@@ -16,13 +16,4 @@ body {
   .footer {
   }
 }
-@media (min-width: 801px) and (max-width: 1024px) {
-  html {
-    height: 10200px;
-  }
-}
-@media (width: 1024px) {
-  html {
-    height: 5100px;
-  }
-}
+
