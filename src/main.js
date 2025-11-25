@@ -3,9 +3,13 @@ import { createWebHistory, createRouter } from 'vue-router'
 import { createApp } from 'vue'
 import App from './App.vue'
 import i18n from './i18n'
-import HomeView from './views/HomeView.vue' // <- bestaat nu echt
+import HomeView from './views/HomeView.vue'
+import BeautyView from './views/BeautyView.vue'
 
-const routes = [{ path: '/', component: HomeView }]
+const routes = [
+  { path: '/', component: HomeView },
+  { path: '/schoonheidsbehandelingen', component: BeautyView },
+]
 
 const router = createRouter({
   history: createWebHistory(),
