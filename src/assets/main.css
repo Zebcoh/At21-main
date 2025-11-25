@@ -19,3 +19,11 @@ body {
   }
 }
 
+/* Header groter maken */
+.navbar h2 {
+  font-size: 1.8rem; /* titel groter */
+}
+
+.nav-link {
+  font-size: 1.1rem; /* menu items groter */
+}
