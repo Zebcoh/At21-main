@@ -91,8 +91,8 @@ p {
   border-width: 0px;
   border-top-left-radius: 200px;
   border-top-right-radius: 200px;
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
   object-fit: cover !important;
   width: 400px;
   height: 450px;
