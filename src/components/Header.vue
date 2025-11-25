@@ -8,7 +8,7 @@
     />
 
     <div class="navbar">
-      <h2>at21hairstudio <strong class="katakana-header">ツ</strong></h2>
+      <h2>at21 hairstudio <strong class="katakana-header">ツ</strong></h2>
 
       <nav class="nav-menu">
         <RouterLink to="/" class="nav-link">Haarstudio</RouterLink>
