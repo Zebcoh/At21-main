@@ -31,8 +31,8 @@
             src="../assets/images/instagram.svg"
             class="social-media-links"
             alt=""
-            width="30px"
-            height="30px"
+            width="36px"
+            height="36px"
             ref=""
             style="margin-right: 8px"
           />
@@ -42,8 +42,8 @@
             src="../assets/images/tiktok.svg"
             class="social-media-links"
             alt=""
-            width="30px"
-            height="30px"
+            width="36px"
+            height="36px"
           />
         </a>
       </div>
