@@ -65,7 +65,8 @@
 .beauty-hero {
   display: flex;
   gap: 4rem;
-  align-items: center;
+  align-items: flex-start; /* --> tekst begint bovenaan naast de foto */
+  margin-top: 1rem;        /* --> blok iets hoger op de pagina */
 }
 
 .beauty-grid {
