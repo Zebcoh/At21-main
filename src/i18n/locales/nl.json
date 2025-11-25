@@ -5,7 +5,7 @@
     "bookButton": "Maak een afspraak"
   },
   "services": {
-    "title": "Onze specialiteiten",
+    "title": "Onze behandelingen",
     "washingCutting": "Wassen/Knippen Dame/Heer",
     "blowDry": "Fohnen/Styling",
     "colorations": "Kleuren",
@@ -23,7 +23,7 @@
     "address": "Haverstraatpassage 18, Enschede",
     "hours": {
       "title": "Openingstijden",
-      "monday": "mandaag : 13:00 – 18:30 uur",
+      "monday": "maandag : 13:00 – 18:30 uur",
       "tuesday": "dinsdag : 09:30 – 18:30 uur",
       "wednesday": "woensdag : 09:30 – 18:30 uur",
       "thursday": "donderdag : 13:00 – 20:00 uur",
