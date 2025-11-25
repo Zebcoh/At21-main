@@ -61,30 +61,6 @@
         </p>
       </div>
     </div>
-
-    <!-- Contactblokje onder de beauty-sectie (boven de footer) -->
-    <div class="beauty-contact">
-      <p>Haverstraatpassage 18, Enschede</p>
-      <p>053 303 45 05</p>
-      <div class="beauty-contact-icons">
-        <a href="https://www.instagram.com/at21hairstudio" target="_blank" rel="noopener noreferrer">
-          <img
-            src="../assets/images/instagram.svg"
-            alt="Instagram At21"
-            width="24"
-            height="24"
-          />
-        </a>
-        <a href="https://www.tiktok.com/@at21hairstudio" target="_blank" rel="noopener noreferrer">
-          <img
-            src="../assets/images/tiktok.svg"
-            alt="TikTok At21"
-            width="24"
-            height="24"
-          />
-        </a>
-      </div>
-    </div>
   </section>
 </template>
 
