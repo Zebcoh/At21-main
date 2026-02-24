@@ -38,32 +38,40 @@ import heroImg from '@/assets/images/home-main-pic.jpeg'
         <article class="beauty-service-card">
           <h3 class="beauty-service-heading">Gezichtsbehandelingen</h3>
           <p class="beauty-services-text">
-            Behandelingen volledig afgestemd op jouw huidtype en wensen.
-            Gericht op huidverbetering, ontspanning en een frisse uitstraling.
+            Onze gezichtsbehandelingen worden volledig afgestemd op jouw huidtype, 
+            huidconditie en persoonlijke wensen. We werken met hoogwaardige Dermalogica-producten 
+            en combineren effectieve huidverbetering met diepe ontspanning. Of je nu komt voor onderhoud,
+            een boost of intensieve verzorging — 
+            wij zorgen voor een gezonde, stralende huid met zichtbare resultaten.
           </p>
         </article>
 
         <article class="beauty-service-card">
           <h3 class="beauty-service-heading">Wenkbrauwen &amp; Wimpers</h3>
           <p class="beauty-services-text">
-            Wenkbrauwstyling met wax en/of verven. Ook bieden wij wimperlifting
-            aan voor een mooie, open blik.
+            Wij bieden professionele wenkbrauwstyling door middel van waxen en/of verven, volledig afgestemd op jouw gezichtsvorm.
+            Daarnaast kun je bij ons terecht voor een wimperlifting, waarmee je natuurlijke wimpers 
+            gelift worden voor een frisse, open en verzorgde uitstraling — zonder mascara.
           </p>
         </article>
 
         <article class="beauty-service-card">
           <h3 class="beauty-service-heading">Kriebel Treatments</h3>
           <p class="beauty-services-text">
-            Verwen jezelf met een heerlijke Kriebel Treatment van 15 of 30 minuten.
-            Uitgevoerd op het gezicht, hals, armen en handen.
+            Gun jezelf een moment van pure ontspanning met onze heerlijke Kriebel Treatments van 15 of 30 minuten.
+            Deze behandelingen worden uitgevoerd op het gezicht, de hals, armen en 
+            handen en zorgen voor diepe ontspanning en een ultiem verwenmoment. 
+            Perfect als korte pauze in je dag of als extra toevoeging aan een andere behandeling.
           </p>
         </article>
 
         <article class="beauty-service-card">
           <h3 class="beauty-service-heading">Combi Behandelingen</h3>
           <p class="beauty-services-text">
-            Combineer een schoonheidsbehandeling met een haarafspraak
-            voor een compleet verwenmoment.
+            Maak van je afspraak een compleet verwenmoment.
+            Combineer een schoonheidsbehandeling bij Nina met een haarbehandeling 
+            bij Julia en geniet van het beste van beide werelden. 
+            Zo stap je volledig verzorgd én ontspannen de salon uit.
           </p>
         </article>
       </div>
