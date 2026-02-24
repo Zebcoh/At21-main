@@ -14,6 +14,8 @@
       </RouterLink>
 
       <nav class="nav-menu">
+        <RouterLink to="/" class="nav-link">Home</RouterLink>
+
         <!-- Haarstudio knopje wordt Prijslijst -->
         <RouterLink to="/prijslijst" class="nav-link">Prijslijst</RouterLink>
 
