@@ -12,10 +12,6 @@ const routes = [
   { path: '/prijslijst', component: PricesView },
   { path: '/schoonheidsbehandelingen', component: BeautyView },
 ]
-const routes = [
-  { path: '/', component: HomeView },
-  { path: '/schoonheidsbehandelingen', component: BeautyView },
-]
 
 const router = createRouter({
   history: createWebHistory(),
