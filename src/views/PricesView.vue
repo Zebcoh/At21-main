@@ -1,18 +1,18 @@
 <template>
   <section class="page-prices">
     <!-- Intro -->
-    <header class="prices-intro">
+    <header class="prices-intro body-custom">
       <div class="prices-intro-content">
         <p class="prices-kicker">AT21 Hair Studio</p>
-        <h1 class="prices-main-title">Prijslijst</h1>
+        <h1 class="at21-header-text">Prijslijst</h1>
 
-        <p class="prices-intro-text">
+        <p class="at21-header-p">
           Hieronder vind je onze prijzen. Twijfel je wat je nodig hebt (bijv. lengte/dikte of een combi)?
           Stuur gerust even een berichtje, dan denken we met je mee.
         </p>
 
         <a
-          class="prices-cta"
+          class="button-primary about-us-btn"
           href="https://widget.salonhub.nl/a/at21hairstudio/enschede/link.html"
           target="_blank"
           rel="noopener noreferrer"
@@ -23,9 +23,9 @@
     </header>
 
     <!-- Prijzen -->
-    <h2 class="prices-section-header">Behandelingen & prijzen</h2>
+    <h2 class="body-header prices-section-header">Behandelingen & prijzen</h2>
 
-    <div class="prices-container">
+    <div class="prices-container body-custom">
       <div class="price-card" v-for="section in sections" :key="section.title">
         <h2 class="price-title">{{ section.title }}</h2>
 
@@ -129,19 +129,13 @@ const sections = [
 </script>
 
 <style scoped>
-.page-prices {
-  width: min(1120px, 90%);
-  margin: 0 auto 4rem;
-}
-
 .prices-intro {
-  margin: 1rem auto 1.8rem;
-  text-align: center;
+  margin: 0.8rem auto 1.5rem;
 }
 
 .prices-intro-content {
   width: min(720px, 100%);
-  margin: 0 auto;
+  text-align: center;
   padding: 1.25rem 1rem 0.75rem;
 }
 
@@ -154,49 +148,26 @@ const sections = [
   opacity: 0.85;
 }
 
-.prices-main-title {
+.prices-intro-content .at21-header-text {
   font-size: clamp(2.1rem, 4.6vw, 3rem);
-  color: var(--main-color-text-2);
-  font-weight: 500;
   margin-bottom: 0.2em;
 }
 
-.prices-intro-text {
+.prices-intro-content .at21-header-p {
   max-width: 56ch;
   margin: 0 auto 1.2rem;
   line-height: 1.55;
-  color: var(--main-color-text-3);
-}
-
-.prices-cta {
-  display: inline-block;
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  border-radius: 8px;
-  padding: 0.8em 2.4em;
-  font-size: 1rem;
-  border: none;
-  color: #e4dece;
-  background-color: #786557;
-  transition: opacity 0.25s;
-}
-
-.prices-cta:hover {
-  opacity: 0.85;
 }
 
 .prices-section-header {
-  margin: 1.4rem 0 0;
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
-  color: var(--main-color-text-2);
+  margin-top: 1.4rem;
 }
 
 .prices-container {
-  width: 100%;
-  margin: 1.6rem auto 0;
+  width: 80%;
+  margin: 2rem auto 4rem auto;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -204,7 +175,7 @@ const sections = [
   background: rgba(255, 255, 255, 0.55);
   border: 1px solid rgba(120, 101, 87, 0.18);
   border-radius: 16px;
-  padding: 1.25rem;
+  padding: 1.25rem 1.25rem;
 }
 
 .price-title {
@@ -217,40 +188,3 @@ const sections = [
 .price-row {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
-  padding: 0.6rem 0;
-  border-bottom: 1px dashed rgba(120, 101, 87, 0.25);
-}
-
-.price-row:last-child {
-  border-bottom: none;
-}
-
-.price-name {
-  color: var(--main-color-text-3);
-}
-
-.price-amount {
-  color: var(--main-color-text-2);
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.prices-note {
-  grid-column: 1 / -1;
-  margin-top: 0.5rem;
-  color: var(--main-color-text-3);
-  opacity: 0.9;
-  font-size: 0.95rem;
-}
-
-@media (max-width: 950px) {
-  .page-prices {
-    width: 92%;
-  }
-
-  .prices-container {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
