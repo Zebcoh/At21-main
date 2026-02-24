@@ -1,14 +1,8 @@
 <template>
   <section class="page-prices">
-    <!-- Hero -->
-    <div class="body-container-1 body-custom">
-      <img
-        src="../assets/images/home-main-pic.jpeg"
-        class="body-container-1-img"
-        alt="Prijslijst at21 hairstudio"
-      />
-
-      <div class="body-container-text-holder">
+    <!-- Intro -->
+    <div class="prices-intro body-custom">
+      <div class="prices-intro-content">
         <h1 class="at21-header-text">Prijslijst</h1>
 
         <p class="at21-header-p">
@@ -136,6 +130,29 @@ const sections = [
 </script>
 
 <style scoped>
+.prices-intro {
+  margin: 1.5rem auto 2.5rem;
+}
+
+.prices-intro-content {
+  width: min(760px, 100%);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(120, 101, 87, 0.2);
+  border-radius: 16px;
+  padding: 2.25rem 1.5rem;
+}
+
+.prices-intro-content .at21-header-text {
+  font-size: clamp(2.3rem, 5vw, 3.4rem);
+  margin-bottom: 0.35em;
+}
+
+.prices-intro-content .at21-header-p {
+  max-width: 54ch;
+  margin: 0 auto 1.6rem;
+}
+
 .prices-container {
   width: 80%;
   margin: 2rem auto 4rem auto;
