@@ -2,7 +2,6 @@
 
 <template>
   <section class="page-beauty">
-    <!-- Hero: zelfde structuur als op de homepagina -->
     <div class="body-container-1 body-custom">
       <img
         src="../assets/images/home-main-pic.jpeg"
@@ -13,15 +12,9 @@
         <h1 class="at21-header-text">Schoonheidsbehandelingen</h1>
 
         <p class="at21-header-p">
-          In onze salon heeft Nina haar eigen, rustige behandelruimte. Als gediplomeerd
-          schoonheidsspecialist biedt zij onder andere gezichtsbehandelingen,
-          wenkbrauw- en wimperbehandelingen en huidverbeterende behandelingen.
-        </p>
-
-        <p class="at21-header-p">
-          Op deze pagina kun je binnenkort meer lezen over de verschillende
-          behandelingen, prijzen en hoe je een haarafspraak kunt combineren met een
-          schoonheidsbehandeling voor een compleet self-care moment.
+          Onze gezichtsbehandelingen worden volledig afgestemd op jouw huidtype en
+          behoeften. Met Dermalogica-producten zorgen we voor optimale verzorging,
+          ontspanning en zichtbare resultaten.
         </p>
 
         <a
@@ -35,31 +28,52 @@
       </div>
     </div>
 
-    <!-- Beauty-services blok -->
     <div class="body-container-our-services body-custom beauty-services">
       <div class="our-services-div">
         <h2 class="our-services-h2">Gezichtsbehandelingen</h2>
         <p class="beauty-services-text">
-          Ontspannende facials, dieptereiniging en huidverbeterende behandelingen
-          afgestemd op jouw huidtype.
+          Onze gezichtsbehandelingen worden volledig afgestemd op jouw huidtype en
+          behoeften. Met Dermalogica-producten zorgen we voor optimale verzorging,
+          ontspanning en zichtbare resultaten.
         </p>
       </div>
 
       <div class="our-services-div">
-        <h2 class="our-services-h2">Brows &amp; lashes</h2>
+        <h2 class="our-services-h2">Wenkbrauwen &amp; Wimpers</h2>
         <p class="beauty-services-text">
-          Wenkbrauwstyling, verven en bijvoorbeeld een lashlift voor een frisse, open
-          blik.
+          Wenkbrauw styling wordt bij ons uitgevoerd met epilaties doormiddel van wax
+          en/of verven. Ook bieden wij wimperlifting aan voor een mooie open look.
+        </p>
+      </div>
+
+      <div class="our-services-div">
+        <h2 class="our-services-h2">Kriebel treatments</h2>
+        <p class="beauty-services-text">
+          Verwen jezelf met onze heerlijke Kriebel Treatments van 15 of 30 minuten.
+          Kriebel treatments worden uitgevoerd op het gezicht, hals, armen en handen.
         </p>
       </div>
 
       <div class="our-services-div">
         <h2 class="our-services-h2">Combi behandelingen</h2>
         <p class="beauty-services-text">
-          Combineer een haarafspraak met een schoonheidsbehandeling bij Nina voor een
-          compleet verwenmoment.
+          Combineer een schoonheidsbehandeling bij Nina met een haarafspraak bij Julia
+          voor een optimaal verwen moment!
         </p>
       </div>
+    </div>
+
+    <div class="body-custom beauty-hours">
+      <h2 class="our-services-h2">Tijden dat ik werk</h2>
+      <ul class="beauty-hours-list">
+        <li><strong>Maandag:</strong> 13:00 tot 18:30</li>
+        <li><strong>Dinsdag:</strong> 9:30 tot 18:30</li>
+        <li><strong>Woensdag:</strong> niet</li>
+        <li><strong>Donderdag:</strong> 13:00 tot 20:00</li>
+        <li><strong>Vrijdag:</strong> 9:30 tot 18:30</li>
+        <li><strong>Zaterdag:</strong> 9:30 tot 15:00</li>
+        <li><strong>Zondag:</strong> niet</li>
+      </ul>
     </div>
   </section>
 </template>
@@ -77,26 +91,15 @@
   max-width: 26rem;
 }
 
-.beauty-contact {
-  text-align: center;
-  margin-top: 3em;
+.beauty-hours {
+  margin-top: 2.5em;
   margin-bottom: 2em;
-  font-size: 0.95rem;
+}
+
+.beauty-hours-list {
+  margin-top: 0.75rem;
+  padding-left: 1.1rem;
   color: var(--main-color-text-3);
-}
-
-.beauty-contact p {
-  margin: 0.2rem 0;
-}
-
-.beauty-contact-icons {
-  margin-top: 0.5rem;
-  display: flex;
-  justify-content: center;
-  gap: 0.75rem;
-}
-
-.beauty-contact-icons img {
-  display: block;
+  line-height: 1.8;
 }
 </style>
