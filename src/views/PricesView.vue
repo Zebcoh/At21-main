@@ -3,7 +3,6 @@
     <!-- Intro -->
     <header class="prices-intro body-custom">
       <div class="prices-intro-content">
-        <p class="prices-kicker">AT21 Hair Studio</p>
         <h1 class="at21-header-text">Behandelingen & prijzen</h1>
 
         <p class="at21-header-p">
