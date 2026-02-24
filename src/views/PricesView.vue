@@ -7,6 +7,12 @@
         <h1 class="prices-main-title">Prijslijst</h1>
 
         <p class="prices-intro-text">
+    <header class="prices-intro body-custom">
+      <div class="prices-intro-content">
+        <p class="prices-kicker">AT21 Hair Studio</p>
+        <h1 class="at21-header-text">Prijslijst</h1>
+
+        <p class="at21-header-p">
           Hieronder vind je onze prijzen. Twijfel je wat je nodig hebt (bijv. lengte/dikte of een combi)?
           Stuur gerust even een berichtje, dan denken we met je mee.
         </p>
@@ -24,6 +30,7 @@
 
     <!-- Prijzen -->
     <h2 class="prices-section-header">Behandelingen & prijzen</h2>
+    <h2 class="body-header prices-section-header">Behandelingen & prijzen</h2>
 
     <div class="prices-container">
       <div class="price-card" v-for="section in sections" :key="section.title">
@@ -137,11 +144,14 @@ const sections = [
 .prices-intro {
   margin: 1rem auto 1.8rem;
   text-align: center;
+.prices-intro {
+  margin: 0.8rem auto 1.5rem;
 }
 
 .prices-intro-content {
   width: min(720px, 100%);
   margin: 0 auto;
+  text-align: center;
   padding: 1.25rem 1rem 0.75rem;
 }
 
@@ -190,6 +200,19 @@ const sections = [
   margin: 1.4rem 0 0;
   font-size: clamp(1.8rem, 4vw, 2.5rem);
   color: var(--main-color-text-2);
+.prices-intro-content .at21-header-text {
+  font-size: clamp(2.1rem, 4.6vw, 3rem);
+  margin-bottom: 0.2em;
+}
+
+.prices-intro-content .at21-header-p {
+  max-width: 56ch;
+  margin: 0 auto 1.2rem;
+  line-height: 1.55;
+}
+
+.prices-section-header {
+  margin-top: 1.4rem;
 }
 
 .prices-container {
