@@ -1,20 +1,24 @@
-<script setup></script>
+<script setup>
+import heroImg from '@/assets/images/home-main-pic.jpeg'
+</script>
 
 <template>
   <section class="page-beauty">
+    <!-- Hero -->
     <div class="body-container-1 body-custom">
       <img
-        src="../assets/images/home-main-pic.jpeg"
+        :src="heroImg"
         class="body-container-1-img"
         alt="Schoonheidsbehandeling bij At21"
       />
+
       <div class="body-container-text-holder">
         <h1 class="at21-header-text">Schoonheidsbehandelingen</h1>
 
         <p class="at21-header-p">
-          Onze gezichtsbehandelingen worden volledig afgestemd op jouw huidtype en
-          behoeften. Met Dermalogica-producten zorgen we voor optimale verzorging,
-          ontspanning en zichtbare resultaten.
+          Onze gezichtsbehandelingen worden volledig afgestemd op jouw huidtype
+          en behoeften. Met hoogwaardige producten zorgen we voor optimale
+          verzorging, ontspanning en zichtbare resultaten.
         </p>
 
         <a
@@ -28,51 +32,53 @@
       </div>
     </div>
 
+    <!-- Services -->
     <div class="body-container-our-services body-custom beauty-services">
       <div class="our-services-div">
         <h2 class="our-services-h2">Gezichtsbehandelingen</h2>
         <p class="beauty-services-text">
-          Onze gezichtsbehandelingen worden volledig afgestemd op jouw huidtype en
-          behoeften. Met Dermalogica-producten zorgen we voor optimale verzorging,
-          ontspanning en zichtbare resultaten.
+          Behandelingen volledig afgestemd op jouw huidtype en wensen.
+          Gericht op huidverbetering, ontspanning en een frisse uitstraling.
         </p>
       </div>
 
       <div class="our-services-div">
         <h2 class="our-services-h2">Wenkbrauwen &amp; Wimpers</h2>
         <p class="beauty-services-text">
-          Wenkbrauw styling wordt bij ons uitgevoerd met epilaties doormiddel van wax
-          en/of verven. Ook bieden wij wimperlifting aan voor een mooie open look.
+          Wenkbrauwstyling met wax en/of verven. Ook bieden wij wimperlifting
+          aan voor een mooie, open blik.
         </p>
       </div>
 
       <div class="our-services-div">
-        <h2 class="our-services-h2">Kriebel treatments</h2>
+        <h2 class="our-services-h2">Kriebel Treatments</h2>
         <p class="beauty-services-text">
-          Verwen jezelf met onze heerlijke Kriebel Treatments van 15 of 30 minuten.
-          Kriebel treatments worden uitgevoerd op het gezicht, hals, armen en handen.
+          Verwen jezelf met een heerlijke Kriebel Treatment van 15 of 30 minuten.
+          Uitgevoerd op het gezicht, hals, armen en handen.
         </p>
       </div>
 
       <div class="our-services-div">
-        <h2 class="our-services-h2">Combi behandelingen</h2>
+        <h2 class="our-services-h2">Combi Behandelingen</h2>
         <p class="beauty-services-text">
-          Combineer een schoonheidsbehandeling bij Nina met een haarafspraak bij Julia
-          voor een optimaal verwen moment!
+          Combineer een schoonheidsbehandeling met een haarafspraak
+          voor een compleet verwenmoment.
         </p>
       </div>
     </div>
 
+    <!-- Opening Hours -->
     <div class="body-custom beauty-hours">
-      <h2 class="our-services-h2">Tijden dat ik werk</h2>
+      <h2 class="our-services-h2">Openingstijden</h2>
+
       <ul class="beauty-hours-list">
-        <li><strong>Maandag:</strong> 13:00 tot 18:30</li>
-        <li><strong>Dinsdag:</strong> 9:30 tot 18:30</li>
-        <li><strong>Woensdag:</strong> niet</li>
-        <li><strong>Donderdag:</strong> 13:00 tot 20:00</li>
-        <li><strong>Vrijdag:</strong> 9:30 tot 18:30</li>
-        <li><strong>Zaterdag:</strong> 9:30 tot 15:00</li>
-        <li><strong>Zondag:</strong> niet</li>
+        <li><strong>Maandag:</strong> 13:00 – 18:30</li>
+        <li><strong>Dinsdag:</strong> 09:30 – 18:30</li>
+        <li><strong>Woensdag:</strong> Gesloten</li>
+        <li><strong>Donderdag:</strong> 13:00 – 20:00</li>
+        <li><strong>Vrijdag:</strong> 09:30 – 18:30</li>
+        <li><strong>Zaterdag:</strong> 09:30 – 15:00</li>
+        <li><strong>Zondag:</strong> Gesloten</li>
       </ul>
     </div>
   </section>
