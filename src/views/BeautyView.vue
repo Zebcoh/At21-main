@@ -79,7 +79,7 @@ import heroImg from '@/assets/images/home-main-pic.jpeg'
 
     <!-- Opening Hours -->
     <div class="body-custom beauty-hours">
-      <h2 class="our-services-h2">Openingstijden</h2>
+      <h2 class="our-services-h2">Openingstijden Bij Mima</h2>
 
       <ul class="beauty-hours-list">
         <li><strong>Maandag:</strong> 13:00 – 18:30</li>
