@@ -4,7 +4,7 @@
     <header class="prices-intro body-custom">
       <div class="prices-intro-content">
         <p class="prices-kicker">AT21 Hair Studio</p>
-        <h1 class="at21-header-text">Prijslijst</h1>
+        <h1 class="at21-header-text">Behandelingen & prijzen</h1>
 
         <p class="at21-header-p">
           Hieronder vind je onze prijzen. Twijfel je wat je nodig hebt (bijv. lengte/dikte of een combi)?
@@ -23,7 +23,6 @@
     </header>
 
     <!-- Prijzen -->
-    <h2 class="body-header prices-section-header">Behandelingen & prijzen</h2>
 
     <div class="prices-container body-custom">
       <div class="price-card" v-for="section in sections" :key="section.title">
