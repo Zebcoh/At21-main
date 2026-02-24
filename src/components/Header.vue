@@ -8,13 +8,19 @@
     />
 
     <div class="navbar">
-      <h2>at21 hairstudio <strong class="katakana-header">ツ</strong></h2>
+      <!-- Logo klikbaar naar home -->
+      <RouterLink to="/" class="brand-link">
+        <h2>at21 hairstudio <strong class="katakana-header">ツ</strong></h2>
+      </RouterLink>
 
       <nav class="nav-menu">
-        <RouterLink to="/" class="nav-link">Haarstudio</RouterLink>
+        <!-- Haarstudio knopje wordt Prijslijst -->
+        <RouterLink to="/prijslijst" class="nav-link">Prijslijst</RouterLink>
+
         <RouterLink to="/schoonheidsbehandelingen" class="nav-link">
           Schoonheidsbehandelingen
         </RouterLink>
+
         <a
           class="nav-link nav-link-cta"
           href="https://widget.salonhub.nl/a/at21hairstudio/enschede/link.html"
@@ -33,7 +39,6 @@
             alt=""
             width="36px"
             height="36px"
-            ref=""
             style="margin-right: 8px"
           />
         </a>
@@ -55,4 +60,9 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style scoped>
+.brand-link {
+  text-decoration: none;
+  color: inherit;
+}
+</style>
