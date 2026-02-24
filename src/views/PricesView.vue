@@ -161,26 +161,6 @@ const sections = [
 
 .prices-section-header {
   margin-top: 1.4rem;
-  margin: 1.5rem auto 2.5rem;
-}
-
-.prices-intro-content {
-  width: min(760px, 100%);
-  text-align: center;
-  background: rgba(255, 255, 255, 0.45);
-  border: 1px solid rgba(120, 101, 87, 0.2);
-  border-radius: 16px;
-  padding: 2.25rem 1.5rem;
-}
-
-.prices-intro-content .at21-header-text {
-  font-size: clamp(2.3rem, 5vw, 3.4rem);
-  margin-bottom: 0.35em;
-}
-
-.prices-intro-content .at21-header-p {
-  max-width: 54ch;
-  margin: 0 auto 1.6rem;
 }
 
 .prices-container {
@@ -208,37 +188,3 @@ const sections = [
 .price-row {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
-  padding: 0.6rem 0;
-  border-bottom: 1px dashed rgba(120, 101, 87, 0.25);
-}
-
-.price-row:last-child {
-  border-bottom: none;
-}
-
-.price-name {
-  color: var(--main-color-text-3);
-}
-
-.price-amount {
-  color: var(--main-color-text-2);
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.prices-note {
-  grid-column: 1 / -1;
-  margin-top: 0.5rem;
-  color: var(--main-color-text-3);
-  opacity: 0.9;
-  font-size: 0.95rem;
-}
-
-@media (max-width: 950px) {
-  .prices-container {
-    grid-template-columns: 1fr;
-    width: 90%;
-  }
-}
-</style>
