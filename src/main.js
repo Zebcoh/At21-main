@@ -5,7 +5,13 @@ import App from './App.vue'
 import i18n from './i18n'
 import HomeView from './views/HomeView.vue'
 import BeautyView from './views/BeautyView.vue'
+import PricesView from './views/PricesView.vue'
 
+const routes = [
+  { path: '/', component: HomeView },
+  { path: '/prijslijst', component: PricesView },
+  { path: '/schoonheidsbehandelingen', component: BeautyView },
+]
 const routes = [
   { path: '/', component: HomeView },
   { path: '/schoonheidsbehandelingen', component: BeautyView },
