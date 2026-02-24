@@ -139,13 +139,17 @@ import heroImg from '@/assets/images/home-main-pic.jpeg'
 }
 
 .beauty-hours {
+  display: block;
+  text-align: center;
   margin-top: 2.5em;
   margin-bottom: 2em;
 }
 
 .beauty-hours-list {
-  margin-top: 0.75rem;
+  display: inline-block;
+  margin: 0.75rem auto 0;
   padding-left: 1.1rem;
+  text-align: left;
   color: var(--main-color-text-3);
   line-height: 1.8;
 }
