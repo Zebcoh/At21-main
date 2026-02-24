@@ -188,3 +188,37 @@ const sections = [
 .price-row {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  gap: 0.9rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px dashed rgba(120, 101, 87, 0.2);
+}
+
+.price-row:last-child {
+  border-bottom: 0;
+}
+
+.price-name {
+  color: var(--main-color-text-2);
+}
+
+.price-amount {
+  font-weight: 600;
+  color: var(--main-color-text-1);
+  white-space: nowrap;
+}
+
+.prices-note {
+  grid-column: 1 / -1;
+  margin-top: 0.25rem;
+  font-size: 0.92rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .prices-container {
+    width: min(92%, 720px);
+    grid-template-columns: 1fr;
+  }
+}
+</style>
