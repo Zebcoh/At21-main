@@ -121,12 +121,8 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  transition: transform 0.3s ease;
   position: relative;
   padding: 1rem;
-}
-.our-services-div:hover {
-  transform: translateY(-5px);
 }
 .our-services-img {
   width: 320px;
