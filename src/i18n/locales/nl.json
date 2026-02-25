@@ -2,21 +2,32 @@
   "header": {
     "title": "at21 hairstudio ツ",
     "intro": "Bij ons draait het om jou en je haar. We nemen de tijd om te luisteren naar wat je wilt en zorgen dat je je op je gemak voelt. Of je nu kiest voor een grote verandering of gewoon een even iets fris, we helpen je de look te vinden die bij je past. Iedereen is welkom — jong of oud, m/v/x. We werken met aandacht en vakmanschap, zodat jij met een goed gevoel en een kapsel dat écht bij je past de deur uitgaat. Kom langs en ontdek hoe fijn het is om jezelf te laten zien bij at21.",
-    "bookButton": "Maak een afspraak"
+    "bookButton": "Maak een afspraak",
+    "heroTitle": "Welkom bij at21 hairstudio ツ",
+    "heroIntro": "Haar en beauty met aandacht, midden in Enschede.",
+    "secondaryCta": "Bekijk prijslijst",
+    "trust1": "✓ Krullen specialist",
+    "trust2": "✓ Natuurlijke kleuringen",
+    "trust3": "✓ Persoonlijke aandacht",
+    "heroTitleLine1": "Welkom bij",
+    "heroTitleLine2": "at21 hairstudio ツ"
   },
   "services": {
-    "title": "Onze behandelingen",
+    "title": "Onze specialiteiten",
     "washingCutting": "Wassen/Knippen Dame/Heer",
     "blowDry": "Fohnen/Styling",
     "colorations": "Kleuren",
     "highlightsBalayage": "Highlights/Balayage",
-    "curlyHair": "Krullen knippen"
+    "curlyHair": "Krullen knippen",
+    "beautyBrows": "Wenkbrauwen & beauty"
   },
   "aboutUs": {
     "title": "Over ons",
     "greeting": "Hi !",
     "description": "Ik ben Julia, 22 jaar en eigenaresse van at21. Mijn grootste passie is mensen laten stralen met gezond en natuurlijk mooi haar. Of je nu komt voor een knipbeurt kleuring of highlights: ik neem de tijd om te luisteren en ervoor te zorgen dat jij je helemaal op je gemak voelt. Krullen zijn mijn absolute specialiteit. Als krulspecialist weet ik hoe belangrijk de juiste techniek en verzorging zijn om jouw natuurlijke krullen tot hun recht te laten komen. Gezond haar staat bij mij altijd op nummer één. Maar At21 run ik niet alleen! Mijn zusje Nina is onze schoonheidsspecialiste. Zij is gespecialiseerd in het verven en shapen van wenkbrauwen en wimpers en zal binnenkort ook starten met schoonheidsbehandelingen in een aparte ruimte binnen de salon. Zo kun je bij At21 straks niet alleen terecht voor je haar maar ook voor een moment van pure ontspanning en verzorging. We kijken ernaar uit jou binnenkort te verwelkomen in de salon!",
-    "bookButton": "Maak een afspraak"
+    "bookButton": "Maak een afspraak",
+    "shortDescription": "Ik ben Julia, eigenaresse van at21. Samen met Nina creëren we een plek waar je haar, huid en wenkbrauwen de aandacht krijgen die ze verdienen. We werken rustig, persoonlijk en met oog voor een natuurlijke uitstraling.",
+    "readMore": "Lees meer"
   },
   "visitUs": {
     "title": "Visit us",
@@ -35,5 +46,10 @@
       "title": "Contact",
       "phone": "053 303 45 05"
     }
+  },
+  "finalCta": {
+    "title": "Plan jouw moment bij at21",
+    "subtitle": "Boek eenvoudig online en wij zorgen voor de rest.",
+    "button": "Nu afspraak maken"
   }
-} 
+}

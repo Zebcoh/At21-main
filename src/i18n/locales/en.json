@@ -2,21 +2,32 @@
   "header": {
     "title": "at21hairstudioツ",
     "intro": "Here at {0} everything revolves around {1} & the health of your hair. In our salon you get the full attention you deserve, so that you feel completely at ease. Young or old, man or woman we believe that you should be able to be yourself and that is why we take the time to bring out {2}. Whether you come for a complete make over or a fresh touch up, we make sure that you leave as the {3}! Come visit us and experience what it means to be truly seen!",
-    "bookButton": "Book an appointment"
+    "bookButton": "Book an appointment",
+    "heroTitle": "Welcome to at21 hairstudio ツ",
+    "heroIntro": "Hair and beauty with personal attention in the heart of Enschede.",
+    "secondaryCta": "View price list",
+    "trust1": "✓ Curly hair specialist",
+    "trust2": "✓ Natural color treatments",
+    "trust3": "✓ Personal attention",
+    "heroTitleLine1": "Welcome to",
+    "heroTitleLine2": "at21 hairstudio ツ"
   },
   "services": {
-    "title": "Our services",
+    "title": "Our specialties",
     "washingCutting": "Washing and cutting",
     "blowDry": "Blow-dry",
     "colorations": "Colorations",
     "highlightsBalayage": "Highlights/Balayage",
-    "curlyHair": "Curly hair"
+    "curlyHair": "Curly hair",
+    "beautyBrows": "Brows & beauty"
   },
   "aboutUs": {
     "title": "About us",
     "greeting": "Hi !",
     "description": "I'm Julia, 21 years old and I am the owner of {0}! My passion is making people feel good about their hair again and as healthy as possible! I find cutting, coloring & highlighting amazing to do, my art is to make hair as natural as possible! {1} (&guys)! cutting and styling curls is absolutely my specialty! But I certainly don't run such a nice business alone! My sister Nina is a {2} at {3} and is skilled in eyebrow and eyelash coloring and waxing/plucking! she is also our hostess and will welcome you with a friendly face! Nice to meet you & hopefully {4}!",
-    "bookButton": "Book an appointment"
+    "bookButton": "Book an appointment",
+    "shortDescription": "I am Julia, owner of at21. Together with Nina we created a space where your hair, skin and brows receive full attention. We work in a calm and personal way, always aiming for a natural result.",
+    "readMore": "Read more"
   },
   "visitUs": {
     "title": "Visit us",
@@ -35,5 +46,10 @@
       "title": "Contact",
       "phone": "053 303 45 05"
     }
+  },
+  "finalCta": {
+    "title": "Plan your moment at at21",
+    "subtitle": "Book online in minutes and we will take care of the rest.",
+    "button": "Book now"
   }
-} 
+}
