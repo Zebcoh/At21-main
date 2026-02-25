@@ -12,6 +12,10 @@ const { t } = useI18n();
         class="body-container-1-img"
       />
       <div class="body-container-text-holder">
+        <h1 class="at21-header-text hero-title">
+          {{ t("header.heroTitleLine1") }}
+          <span class="hero-second-line">{{ t("header.heroTitleLine2") }}</span>
+        </h1>
         <h1 class="at21-header-text">{{ t("header.heroTitle") }}</h1>
         <p class="at21-header-p">{{ t("header.heroIntro") }}</p>
         <div class="hero-actions">
@@ -136,6 +140,39 @@ const { t } = useI18n();
 <style scoped>
 @import "@/assets/home.css";
 
+.hero-title {
+  line-height: 1.1;
+}
+
+.hero-second-line {
+  display: block;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button-secondary {
+  text-decoration: none;
+  border: 1px solid var(--main-color-text-1);
+  color: var(--main-color-text-1);
+  padding: 0.8em 1.5em;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.hero-trust-list {
+  margin-top: 1.4rem;
+  list-style: none;
+  padding: 0;
+}
+
+
 .hero-actions {
   display: flex;
   gap: 0.75rem;
@@ -186,6 +223,15 @@ const { t } = useI18n();
 
 .about-action-btn {
   min-width: 190px;
+  text-align: center;
+  padding: 0.8em 1.45em;
+}
+
+.final-cta {
+  margin: 4rem auto 1.5rem;
+  background: rgba(120, 101, 87, 0.1);
+  border-radius: 20px;
+  text-align: center;
   text-align: center;
   padding: 0.8em 1.45em;
 }
