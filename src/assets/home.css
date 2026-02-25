@@ -30,16 +30,14 @@ p {
 
 img {
   display: block;
-  image-rendering: auto;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 .body-container-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(300px, 400px) minmax(320px, 1fr);
   align-items: center;
+  justify-content: center;
   gap: 4rem;
-  width: 80%;
+  width: min(1120px, 90%);
   margin: 0 auto 5em;
 }
 .body-header {
@@ -91,12 +89,8 @@ img {
 }
 
 .body-container-1-img {
-  transform: translateZ(0);
-  width: 400px;
-  max-width: 100%;
+  width: min(100%, 400px);
   height: auto;
-  aspect-ratio: 8 / 9;
-  object-fit: cover !important;
   border-style: none;
   border-width: 0;
   border-top-left-radius: 24px;
@@ -115,15 +109,15 @@ img {
 }
 .body-container-our-services {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+  justify-content: center;
+  gap: 2rem;
   max-width: 1200px;
   margin: 4rem auto;
-  padding: 0 3rem;
+  padding: 0 1rem;
 }
 .our-services-div {
-  width: 100%;
-  max-width: 320px;
+  width: min(100%, 320px);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -141,11 +135,8 @@ img {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
 }
 .our-services-img {
-  transform: translateZ(0);
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -181,7 +172,6 @@ img {
 }
 
 .about-us-img {
-  transform: translateZ(0);
   width: 100%;
   max-width: 420px;
   height: auto;
@@ -275,9 +265,6 @@ header {
   }
 }
 
-@media (max-width: 1200px) {
-}
-
 @media (max-width: 950px) {
   .body-custom {
     display: block;
@@ -287,6 +274,7 @@ header {
 
   .body-container-1 {
     grid-template-columns: 1fr;
+    justify-items: center;
     gap: 2rem;
   }
   .at21-header-text {
@@ -298,9 +286,10 @@ header {
     font-size: 1em;
   }
   .body-container-our-services {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    padding: 0 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 300px));
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0 1rem;
     margin: 3rem auto;
   }
   .our-services-div {
@@ -319,7 +308,6 @@ header {
     flex-direction: column-reverse;
   }
   .about-us-img {
-    transform: translateZ(0);
     order: 1;
     margin: 2em auto;
     max-width: 100%;
@@ -370,8 +358,9 @@ header {
 @media (max-width: 600px) {
   .body-container-our-services {
     grid-template-columns: 1fr;
-    gap: 3rem;
-    padding: 0 1.5rem;
+    justify-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
     margin: 2rem auto;
   }
 
