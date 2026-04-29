@@ -65,7 +65,7 @@ const sections = [
   {
     title: 'Extra’s',
     items: [
-      { name: 'Knippen Kinderen', price: '€ 30,00' }],
+      { name: 'Knippen Kinderen', price: '€ 30,00' },
       { name: 'Bijwerken', price: '€ 22,50' },
       { name: 'Pony', price: '€ 15' },
       { name: 'Wassen & drogen', price: '€ 22,95' },
