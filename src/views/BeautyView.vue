@@ -1,5 +1,5 @@
 <script setup>
-import heroImg from '@/assets/images/nina.jpeg'
+import heroImg from '@/assets/images/nina.jpg'
 </script>
 
 <template>
