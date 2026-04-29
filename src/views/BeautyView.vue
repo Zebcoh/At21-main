@@ -16,7 +16,7 @@ import heroImg from '@/assets/images/nina.jpg'
         <h1 class="at21-header-text">Schoonheidsbehandelingen</h1>
 
         <p class="at21-header-p">
-          Onze gezichtsbehandelingen worden volledig afgestemd op jouw huidtype
+          Kom langs bij Mima voor professionele schoonheidsbehandelingen! De gezichtsbehandelingen worden volledig afgestemd op jouw huidtype
           en behoeften. Met hoogwaardige producten zorgen we voor optimale
           verzorging, ontspanning en zichtbare resultaten.
         </p>
