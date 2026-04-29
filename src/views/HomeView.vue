@@ -45,7 +45,7 @@ const { t } = useI18n();
       </div>
       <div class="our-services-div">
         <img
-          src="../assets/images/coloring.jpg"
+          src="../assets/images/gallery-5.jfif"
           alt=""
           class="our-services-img"
         />
@@ -53,11 +53,11 @@ const { t } = useI18n();
       </div>
       <div class="our-services-div">
         <img
-          src="../assets/images/eyebrows.jfif"
+          src="../assets/images/coloration-blonde.jfif"
           alt=""
           class="our-services-img"
         />
-        <h2 class="our-services-h2">{{ t("services.beautyBrows") }}</h2>
+        <h2 class="our-services-h2">{{ t("services.highlightsBalayage") }}</h2>
       </div>
     </div>
 
